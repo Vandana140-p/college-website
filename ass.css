@@ -1,0 +1,101 @@
+* {
+     margin:0px;
+     padding:0px;
+}
+ html, body {
+     font-family Roboto, sans-serif, arial;
+     font-size: 14px;
+     color: slateblue;
+}
+ .container {
+     width: 1200px;
+     margin:0px auto;
+}
+ .main-section {
+     width: 100%;
+     float: left;
+     padding:50px 0px 40px 0px;
+}
+ .heading {
+     font-size: 22px;
+     font-weight: 500;
+     border-bottom: 1px solid slateblue;
+     margin-bottom:25px;
+     color: slateblue;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:blue ;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  
+font-size:18px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+li a:hover:not(.active) {
+  background: Dodgerblue;
+}
+
+.active {
+  background-color: Dodgerblue;
+}
+.logo {
+     width:80%;
+}
+.gallery img {
+     width: 24%;       
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+}
+
+/* Modal Content */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 500%;
+    height:50%;
+}
+
+/* Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    font-size: 50px;
+    color: black;
+    cursor: pointer;
+}
+#modalText {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+color:white;
+}
+#Text {
+font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+color:black;
+}

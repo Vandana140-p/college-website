@@ -1,0 +1,50 @@
+  * {
+     margin:0px;
+     padding:0px;
+}
+ html, body {
+     font-family Roboto, sans-serif, arial;
+     font-size: 14px;
+     color: #242424;
+}
+ .container {
+     width: 1200px;
+     margin:0px auto;
+}
+ 
+nav {
+     width: 100%;
+     float: right;
+     background: blue;
+     padding:15px 0px;
+}
+ nav a {
+     color: white;
+     text-decoration: none;
+     font-size: 17px;
+     border-right: 1px solid blue;
+     padding:2px 20px;
+}
+.active {
+  background-color:DodgerBlue;
+}
+.logo {
+     width:80%;
+}
+.anti{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+.college img {
+     width:550%;
+    height=500px;
+     float: left;
+}
+ .text {
+    font-size: 13px;
+    color: blue;
+    padding-left: 720px;
+    padding-top: 0%;
+    float: left;
+  }
